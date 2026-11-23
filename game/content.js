@@ -1,0 +1,88 @@
+// Everything the game says that players didn't write themselves.
+// All of it was written for Fresh Prints.
+
+export { SPARKS, STARTERS } from "../public/js/words.js";
+
+// Printed when there aren't enough slogans to go round, and what the bots write.
+export const HOUSE_SLOGANS = [
+  "100% cotton. 0% plan.",
+  "Officially unofficial",
+  "This shirt was free",
+  "Probably fine",
+  "Low battery",
+  "Not now, I'm thriving",
+  "Snack enthusiast",
+  "Emotionally available on weekends",
+  "Built different. Like, oddly.",
+  "Do not machine wash my feelings",
+  "Limited edition (please return)",
+  "I peaked in this shirt",
+  "Ask me about my socks",
+  "Hydrated and confused",
+  "Certified vibe inspector",
+  "Supporting character energy",
+  "Fuelled by naps",
+  "Part-time legend",
+  "This is my good shirt",
+  "I brake for pigeons",
+  "Professional overthinker",
+  "Here for the snacks",
+  "Running late, as planned",
+  "Sorry, I was buffering",
+  "My plants are proud of me",
+  "Under new management",
+  "Now with 20% more me",
+  "I survived a group project",
+  "Legally a sandwich",
+  "Best before yesterday",
+  "Warning: may start singing",
+  "Respect the nap",
+  "Support your local raccoon",
+  "Okay but hear me out",
+  "Spoiler: it gets weird",
+  "Medium rare human",
+  "Ask me about my gravy",
+  "Mildly famous in my kitchen",
+  "Vintage (since Tuesday)",
+  "World tour: my couch",
+  "I came for the free shirt",
+  "Proudly mediocre at darts",
+  "Unpaid intern of the universe",
+  "Recovering cheese addict",
+  "Fluent in sarcasm and soup",
+  "Allergic to mornings",
+  "My cat thinks I'm cool",
+  "Too tired to be mysterious",
+  "Gone fishing for compliments",
+  "Will dance for applause",
+  "Keep it weird, keep it warm",
+  "Main event: lunch",
+  "Fully charged on chaos",
+  "Napping is a sport",
+  "Ask me about my nemesis",
+  "Big soup energy",
+  "Living rent free in my head",
+  "Professional snack critic",
+  "Out of office, out of mind",
+  "Born to nap, forced to work",
+  "Kindly leave me in the group chat",
+  "Sponsored by my mum",
+  "Certified sock matcher",
+  "Hot dog water sommelier",
+  "Proud owner of a decent spoon",
+  "The duck made me do it",
+];
+
+// Print styles a shirt can come off the press in. The look of each one lives
+// in the client (shirt.js); the server only deals them out.
+export const STYLES = ["block", "varsity", "script", "marker", "type", "sign", "retro", "mono"];
+
+// End-of-night awards.
+export const AWARDS = {
+  best: { title: "Best Seller", blurb: "The tee that flew off the rack." },
+  artist: { title: "Top Designer", blurb: "Their drawings sold the most shirts." },
+  writer: { title: "Top Copywriter", blurb: "Their slogans sold the most shirts." },
+  crowd: { title: "Crowd Favourite", blurb: "Most reactions on the runway." },
+  cult: { title: "Cult Classic", blurb: "The room loved it. Nobody bought it." },
+  team: { title: "Dream Team", blurb: "The artist and writer the press kept getting right." },
+};

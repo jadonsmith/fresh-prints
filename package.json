@@ -1,0 +1,18 @@
+{
+  "name": "fresh-prints",
+  "version": "1.0.0",
+  "description": "Fresh Prints: a party game for phones. Everyone draws t-shirt designs and writes slogans, the press pairs them at random, and the room shops for the best tee.",
+  "main": "server.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/engine.test.js && node test/sim.js",
+    "bots": "node test/bots.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-generator": "^1.5.2",
+    "ws": "^8.23.0"
+  }
+}
